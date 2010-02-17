@@ -8,10 +8,10 @@
  Version: 1.0
  */
 
-add_action('admin_menu', 'gopenid_admin_menu');
+add_action('admin_menu', 'chromeframe_snippet');
 
 function chromeframe_snippet() {  ?>
-	<meta http-equiv="X-UA-Compatible" content="chrome=1"/> 
+	<meta http-equiv="X-UA-Compatible" content="chrome=1" /> 
 <?php }
 
 add_action('wp_head', 'chromeframe_snippet');
